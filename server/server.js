@@ -17,7 +17,7 @@ mongoose
     })
     .then(() => console.log('DB connected'))
     .catch(err => console.log('DB CONNECTION ERROR: ', err));
-
+ 
 // import routes
 const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/user');
